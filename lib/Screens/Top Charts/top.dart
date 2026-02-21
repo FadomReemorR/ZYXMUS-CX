@@ -14,20 +14,20 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'package:app_links/app_links.dart';
-import 'package:blackhole/APIs/spotify_api.dart';
-import 'package:blackhole/CustomWidgets/custom_physics.dart';
-import 'package:blackhole/CustomWidgets/drawer.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/image_card.dart';
-import 'package:blackhole/Helpers/spotify_country.dart';
-import 'package:blackhole/Helpers/spotify_helper.dart';
-// import 'package:blackhole/Helpers/countrycodes.dart';
-import 'package:blackhole/Screens/Search/search.dart';
-import 'package:blackhole/constants/countrycodes.dart';
+import 'package:zyxvold/APIs/spotify_api.dart';
+import 'package:zyxvold/CustomWidgets/custom_physics.dart';
+import 'package:zyxvold/CustomWidgets/drawer.dart';
+import 'package:zyxvold/CustomWidgets/empty_screen.dart';
+import 'package:zyxvold/CustomWidgets/image_card.dart';
+import 'package:zyxvold/Helpers/spotify_country.dart';
+import 'package:zyxvold/Helpers/spotify_helper.dart';
+// import 'package:zyxvold/Helpers/countrycodes.dart';
+import 'package:zyxvold/Screens/Search/search.dart';
+import 'package:zyxvold/constants/countrycodes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hive_flutter/hive_flutter.dart';

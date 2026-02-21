@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 // import 'dart:io';
 
-// import 'package:blackhole/APIs/api.dart';
+// import 'package:zyxvold/APIs/api.dart';
 // import 'package:http/http.dart';
 
 // Future<void> getArtistImage({

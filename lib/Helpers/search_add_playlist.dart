@@ -14,18 +14,18 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:convert';
 
-import 'package:blackhole/APIs/api.dart';
-import 'package:blackhole/APIs/spotify_api.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/Helpers/matcher.dart';
-import 'package:blackhole/Helpers/playlist.dart';
-import 'package:blackhole/Services/youtube_services.dart';
-import 'package:blackhole/Services/yt_music.dart';
+import 'package:zyxvold/APIs/api.dart';
+import 'package:zyxvold/APIs/spotify_api.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/Helpers/matcher.dart';
+import 'package:zyxvold/Helpers/playlist.dart';
+import 'package:zyxvold/Services/youtube_services.dart';
+import 'package:zyxvold/Services/yt_music.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:http/http.dart';

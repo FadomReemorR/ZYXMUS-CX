@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:async';
@@ -23,23 +23,23 @@ import 'dart:math';
 import 'dart:ui' as ui;
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/CustomWidgets/add_playlist.dart';
-import 'package:blackhole/CustomWidgets/animated_text.dart';
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/download_button.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/equalizer.dart';
-import 'package:blackhole/CustomWidgets/like_button.dart';
-import 'package:blackhole/CustomWidgets/seek_bar.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/textinput_dialog.dart';
-import 'package:blackhole/Helpers/audio_service_helper.dart';
-import 'package:blackhole/Helpers/config.dart';
-import 'package:blackhole/Helpers/dominant_color.dart';
-import 'package:blackhole/Helpers/lyrics.dart';
-import 'package:blackhole/Helpers/mediaitem_converter.dart';
-import 'package:blackhole/Screens/Common/song_list.dart';
-import 'package:blackhole/Screens/Search/albums.dart';
+import 'package:zyxvold/CustomWidgets/add_playlist.dart';
+import 'package:zyxvold/CustomWidgets/animated_text.dart';
+import 'package:zyxvold/CustomWidgets/copy_clipboard.dart';
+import 'package:zyxvold/CustomWidgets/download_button.dart';
+import 'package:zyxvold/CustomWidgets/empty_screen.dart';
+import 'package:zyxvold/CustomWidgets/equalizer.dart';
+import 'package:zyxvold/CustomWidgets/like_button.dart';
+import 'package:zyxvold/CustomWidgets/seek_bar.dart';
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/CustomWidgets/textinput_dialog.dart';
+import 'package:zyxvold/Helpers/audio_service_helper.dart';
+import 'package:zyxvold/Helpers/config.dart';
+import 'package:zyxvold/Helpers/dominant_color.dart';
+import 'package:zyxvold/Helpers/lyrics.dart';
+import 'package:zyxvold/Helpers/mediaitem_converter.dart';
+import 'package:zyxvold/Screens/Common/song_list.dart';
+import 'package:zyxvold/Screens/Search/albums.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/cupertino.dart';

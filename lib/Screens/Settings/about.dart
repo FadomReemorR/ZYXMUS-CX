@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/Helpers/github.dart';
-import 'package:blackhole/Helpers/update.dart';
+import 'package:zyxvold/CustomWidgets/copy_clipboard.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/Helpers/github.dart';
+import 'package:zyxvold/Helpers/update.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

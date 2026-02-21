@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:async';
 
-import 'package:blackhole/CustomWidgets/bouncy_playlist_header_scroll_view.dart';
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/image_card.dart';
-import 'package:blackhole/Models/song_item.dart';
-import 'package:blackhole/Models/url_image_generator.dart';
+import 'package:zyxvold/CustomWidgets/bouncy_playlist_header_scroll_view.dart';
+import 'package:zyxvold/CustomWidgets/copy_clipboard.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/image_card.dart';
+import 'package:zyxvold/Models/song_item.dart';
+import 'package:zyxvold/Models/url_image_generator.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 

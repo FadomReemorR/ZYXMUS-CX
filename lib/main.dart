@@ -14,23 +14,23 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:async';
 import 'dart:io';
 
-import 'package:blackhole/Helpers/config.dart';
-import 'package:blackhole/Helpers/handle_native.dart';
-import 'package:blackhole/Helpers/import_export_playlist.dart';
-import 'package:blackhole/Helpers/logging.dart';
-import 'package:blackhole/Helpers/route_handler.dart';
-import 'package:blackhole/Screens/Common/routes.dart';
-import 'package:blackhole/Screens/Player/audioplayer.dart';
-import 'package:blackhole/constants/constants.dart';
-import 'package:blackhole/constants/languagecodes.dart';
-import 'package:blackhole/providers/audio_service_provider.dart';
-import 'package:blackhole/theme/app_theme.dart';
+import 'package:zyxvold/Helpers/config.dart';
+import 'package:zyxvold/Helpers/handle_native.dart';
+import 'package:zyxvold/Helpers/import_export_playlist.dart';
+import 'package:zyxvold/Helpers/logging.dart';
+import 'package:zyxvold/Helpers/route_handler.dart';
+import 'package:zyxvold/Screens/Common/routes.dart';
+import 'package:zyxvold/Screens/Player/audioplayer.dart';
+import 'package:zyxvold/constants/constants.dart';
+import 'package:zyxvold/constants/languagecodes.dart';
+import 'package:zyxvold/providers/audio_service_provider.dart';
+import 'package:zyxvold/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';

@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
-import 'package:blackhole/CustomWidgets/drawer.dart';
-import 'package:blackhole/CustomWidgets/on_hover.dart';
-import 'package:blackhole/Screens/Search/search.dart';
-import 'package:blackhole/Screens/YouTube/youtube_playlist.dart';
-import 'package:blackhole/Services/youtube_services.dart';
+import 'package:zyxvold/CustomWidgets/drawer.dart';
+import 'package:zyxvold/CustomWidgets/on_hover.dart';
+import 'package:zyxvold/Screens/Search/search.dart';
+import 'package:zyxvold/Screens/YouTube/youtube_playlist.dart';
+import 'package:zyxvold/Services/youtube_services.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';

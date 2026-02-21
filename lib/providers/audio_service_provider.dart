@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/Screens/Player/audioplayer.dart';
-import 'package:blackhole/Services/audio_service.dart';
+import 'package:zyxvold/Screens/Player/audioplayer.dart';
+import 'package:zyxvold/Services/audio_service.dart';
 import 'package:flutter/material.dart';
 
 class AudioHandlerHelper {

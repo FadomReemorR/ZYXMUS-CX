@@ -14,31 +14,31 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:io';
 
-import 'package:blackhole/APIs/api.dart';
-import 'package:blackhole/CustomWidgets/download_button.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/image_card.dart';
-import 'package:blackhole/CustomWidgets/like_button.dart';
-import 'package:blackhole/CustomWidgets/media_tile.dart';
-import 'package:blackhole/CustomWidgets/search_bar.dart' as searchbar;
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/song_tile_trailing_menu.dart';
-import 'package:blackhole/Helpers/extensions.dart';
-import 'package:blackhole/Screens/Common/song_list.dart';
-import 'package:blackhole/Screens/Common/song_list_view.dart';
-import 'package:blackhole/Screens/Search/albums.dart';
-import 'package:blackhole/Screens/Search/artists.dart';
-import 'package:blackhole/Screens/YouTube/youtube_artist.dart';
-import 'package:blackhole/Screens/YouTube/youtube_playlist.dart';
-import 'package:blackhole/Services/player_service.dart';
-import 'package:blackhole/Services/youtube_services.dart';
-import 'package:blackhole/Services/yt_music.dart';
+import 'package:zyxvold/APIs/api.dart';
+import 'package:zyxvold/CustomWidgets/download_button.dart';
+import 'package:zyxvold/CustomWidgets/empty_screen.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/image_card.dart';
+import 'package:zyxvold/CustomWidgets/like_button.dart';
+import 'package:zyxvold/CustomWidgets/media_tile.dart';
+import 'package:zyxvold/CustomWidgets/search_bar.dart' as searchbar;
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/CustomWidgets/song_tile_trailing_menu.dart';
+import 'package:zyxvold/Helpers/extensions.dart';
+import 'package:zyxvold/Screens/Common/song_list.dart';
+import 'package:zyxvold/Screens/Common/song_list_view.dart';
+import 'package:zyxvold/Screens/Search/albums.dart';
+import 'package:zyxvold/Screens/Search/artists.dart';
+import 'package:zyxvold/Screens/YouTube/youtube_artist.dart';
+import 'package:zyxvold/Screens/YouTube/youtube_playlist.dart';
+import 'package:zyxvold/Services/player_service.dart';
+import 'package:zyxvold/Services/youtube_services.dart';
+import 'package:zyxvold/Services/yt_music.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hive/hive.dart';

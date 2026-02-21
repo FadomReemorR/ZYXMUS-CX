@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:blackhole/APIs/api.dart';
-import 'package:blackhole/Helpers/extensions.dart';
-import 'package:blackhole/Helpers/image_resolution_modifier.dart';
+import 'package:zyxvold/APIs/api.dart';
+import 'package:zyxvold/Helpers/extensions.dart';
+import 'package:zyxvold/Helpers/image_resolution_modifier.dart';
 import 'package:dart_des/dart_des.dart';
 import 'package:hive/hive.dart';
 import 'package:logging/logging.dart';

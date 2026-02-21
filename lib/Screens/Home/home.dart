@@ -14,31 +14,31 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:io';
 
-import 'package:blackhole/CustomWidgets/bottom_nav_bar.dart';
-import 'package:blackhole/CustomWidgets/drawer.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/miniplayer.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/Helpers/backup_restore.dart';
-import 'package:blackhole/Helpers/downloads_checker.dart';
-import 'package:blackhole/Helpers/github.dart';
-import 'package:blackhole/Helpers/route_handler.dart';
-import 'package:blackhole/Helpers/update.dart';
-import 'package:blackhole/Screens/Common/routes.dart';
-import 'package:blackhole/Screens/Home/home_screen.dart';
-import 'package:blackhole/Screens/Library/library.dart';
-import 'package:blackhole/Screens/LocalMusic/downed_songs.dart';
-import 'package:blackhole/Screens/LocalMusic/downed_songs_desktop.dart';
-import 'package:blackhole/Screens/Player/audioplayer.dart';
-import 'package:blackhole/Screens/Settings/new_settings_page.dart';
-import 'package:blackhole/Screens/Top Charts/top.dart';
-import 'package:blackhole/Screens/YouTube/youtube_home.dart';
-import 'package:blackhole/Services/ext_storage_provider.dart';
+import 'package:zyxvold/CustomWidgets/bottom_nav_bar.dart';
+import 'package:zyxvold/CustomWidgets/drawer.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/miniplayer.dart';
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/Helpers/backup_restore.dart';
+import 'package:zyxvold/Helpers/downloads_checker.dart';
+import 'package:zyxvold/Helpers/github.dart';
+import 'package:zyxvold/Helpers/route_handler.dart';
+import 'package:zyxvold/Helpers/update.dart';
+import 'package:zyxvold/Screens/Common/routes.dart';
+import 'package:zyxvold/Screens/Home/home_screen.dart';
+import 'package:zyxvold/Screens/Library/library.dart';
+import 'package:zyxvold/Screens/LocalMusic/downed_songs.dart';
+import 'package:zyxvold/Screens/LocalMusic/downed_songs_desktop.dart';
+import 'package:zyxvold/Screens/Player/audioplayer.dart';
+import 'package:zyxvold/Screens/Settings/new_settings_page.dart';
+import 'package:zyxvold/Screens/Top Charts/top.dart';
+import 'package:zyxvold/Screens/YouTube/youtube_home.dart';
+import 'package:zyxvold/Services/ext_storage_provider.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

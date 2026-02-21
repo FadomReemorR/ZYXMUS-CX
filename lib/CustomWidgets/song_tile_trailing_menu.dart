@@ -14,18 +14,18 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/CustomWidgets/add_playlist.dart';
-import 'package:blackhole/Helpers/add_mediaitem_to_queue.dart';
-import 'package:blackhole/Helpers/mediaitem_converter.dart';
-import 'package:blackhole/Helpers/radio.dart';
-import 'package:blackhole/Screens/Common/song_list.dart';
-import 'package:blackhole/Screens/Search/albums.dart';
-import 'package:blackhole/Screens/Search/search.dart';
-import 'package:blackhole/Services/yt_music.dart';
+import 'package:zyxvold/CustomWidgets/add_playlist.dart';
+import 'package:zyxvold/Helpers/add_mediaitem_to_queue.dart';
+import 'package:zyxvold/Helpers/mediaitem_converter.dart';
+import 'package:zyxvold/Helpers/radio.dart';
+import 'package:zyxvold/Screens/Common/song_list.dart';
+import 'package:zyxvold/Screens/Search/albums.dart';
+import 'package:zyxvold/Screens/Search/search.dart';
+import 'package:zyxvold/Services/yt_music.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

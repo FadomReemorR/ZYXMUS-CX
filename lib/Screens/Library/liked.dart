@@ -14,22 +14,22 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
-import 'package:blackhole/CustomWidgets/collage.dart';
-import 'package:blackhole/CustomWidgets/custom_physics.dart';
-import 'package:blackhole/CustomWidgets/data_search.dart';
-import 'package:blackhole/CustomWidgets/download_button.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/image_card.dart';
-import 'package:blackhole/CustomWidgets/like_button.dart';
-import 'package:blackhole/CustomWidgets/playlist_head.dart';
-import 'package:blackhole/CustomWidgets/song_tile_trailing_menu.dart';
-import 'package:blackhole/Helpers/songs_count.dart' as songs_count;
-import 'package:blackhole/Screens/Library/show_songs.dart';
-import 'package:blackhole/Services/player_service.dart';
+import 'package:zyxvold/CustomWidgets/collage.dart';
+import 'package:zyxvold/CustomWidgets/custom_physics.dart';
+import 'package:zyxvold/CustomWidgets/data_search.dart';
+import 'package:zyxvold/CustomWidgets/download_button.dart';
+import 'package:zyxvold/CustomWidgets/empty_screen.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/image_card.dart';
+import 'package:zyxvold/CustomWidgets/like_button.dart';
+import 'package:zyxvold/CustomWidgets/playlist_head.dart';
+import 'package:zyxvold/CustomWidgets/song_tile_trailing_menu.dart';
+import 'package:zyxvold/Helpers/songs_count.dart' as songs_count;
+import 'package:zyxvold/Screens/Library/show_songs.dart';
+import 'package:zyxvold/Services/player_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';

@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:convert';
 
 import 'package:audiotagger/audiotagger.dart';
 import 'package:audiotagger/models/tag.dart';
-import 'package:blackhole/APIs/spotify_api.dart';
-import 'package:blackhole/Helpers/matcher.dart';
-import 'package:blackhole/Helpers/spotify_helper.dart';
+import 'package:zyxvold/APIs/spotify_api.dart';
+import 'package:zyxvold/Helpers/matcher.dart';
+import 'package:zyxvold/Helpers/spotify_helper.dart';
 import 'package:http/http.dart';
 import 'package:logging/logging.dart';
 

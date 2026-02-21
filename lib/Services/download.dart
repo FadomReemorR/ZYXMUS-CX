@@ -14,17 +14,17 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:io';
 
 import 'package:audiotagger/audiotagger.dart';
 import 'package:audiotagger/models/tag.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/Helpers/lyrics.dart';
-import 'package:blackhole/Services/ext_storage_provider.dart';
-import 'package:blackhole/Services/youtube_services.dart';
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/Helpers/lyrics.dart';
+import 'package:zyxvold/Services/ext_storage_provider.dart';
+import 'package:zyxvold/Services/youtube_services.dart';
 // import 'package:ffmpeg_kit_flutter_audio/ffmpeg_kit.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

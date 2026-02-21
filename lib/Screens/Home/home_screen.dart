@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:math';
 
-import 'package:blackhole/CustomWidgets/drawer.dart';
-import 'package:blackhole/CustomWidgets/textinput_dialog.dart';
-import 'package:blackhole/Screens/Home/saavn.dart';
-import 'package:blackhole/Screens/Search/search.dart';
+import 'package:zyxvold/CustomWidgets/drawer.dart';
+import 'package:zyxvold/CustomWidgets/textinput_dialog.dart';
+import 'package:zyxvold/Screens/Home/saavn.dart';
+import 'package:zyxvold/Screens/Search/search.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

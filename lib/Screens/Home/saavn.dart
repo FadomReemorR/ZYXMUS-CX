@@ -14,27 +14,27 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:io';
 
-import 'package:blackhole/APIs/api.dart';
-import 'package:blackhole/CustomWidgets/collage.dart';
-import 'package:blackhole/CustomWidgets/horizontal_albumlist.dart';
-import 'package:blackhole/CustomWidgets/horizontal_albumlist_separated.dart';
-import 'package:blackhole/CustomWidgets/image_card.dart';
-import 'package:blackhole/CustomWidgets/like_button.dart';
-import 'package:blackhole/CustomWidgets/on_hover.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/song_tile_trailing_menu.dart';
-import 'package:blackhole/Helpers/extensions.dart';
-import 'package:blackhole/Helpers/format.dart';
-import 'package:blackhole/Models/image_quality.dart';
-import 'package:blackhole/Screens/Common/song_list.dart';
-import 'package:blackhole/Screens/Library/liked.dart';
-import 'package:blackhole/Screens/Search/artists.dart';
-import 'package:blackhole/Services/player_service.dart';
+import 'package:zyxvold/APIs/api.dart';
+import 'package:zyxvold/CustomWidgets/collage.dart';
+import 'package:zyxvold/CustomWidgets/horizontal_albumlist.dart';
+import 'package:zyxvold/CustomWidgets/horizontal_albumlist_separated.dart';
+import 'package:zyxvold/CustomWidgets/image_card.dart';
+import 'package:zyxvold/CustomWidgets/like_button.dart';
+import 'package:zyxvold/CustomWidgets/on_hover.dart';
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/CustomWidgets/song_tile_trailing_menu.dart';
+import 'package:zyxvold/Helpers/extensions.dart';
+import 'package:zyxvold/Helpers/format.dart';
+import 'package:zyxvold/Models/image_quality.dart';
+import 'package:zyxvold/Screens/Common/song_list.dart';
+import 'package:zyxvold/Screens/Library/liked.dart';
+import 'package:zyxvold/Screens/Search/artists.dart';
+import 'package:zyxvold/Services/player_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hive_flutter/hive_flutter.dart';

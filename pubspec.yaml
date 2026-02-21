@@ -1,4 +1,4 @@
-name: blackhole
+name: zyxvold
 description: An Open Source Music Player App.
 
 # Prevent accidental publishing to pub.dev.
@@ -83,9 +83,9 @@ flutter:
     - assets/
 
 msix_config:
-  display_name: BlackHole
+  display_name: ZyxVold
   publisher_display_name: Ankit Sangwan
-  identity_name: com.shadow.blackhole
+  identity_name: com.shadow.zyxvold
   icons_background_color: transparent
   logo_path: assets/ic_launcher.png
   file_extension: .mp3, .m4a

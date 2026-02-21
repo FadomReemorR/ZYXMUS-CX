@@ -1,9 +1,9 @@
-import 'package:blackhole/CustomWidgets/box_switch_tile.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/Screens/Home/saavn.dart' as home_screen;
-import 'package:blackhole/Screens/Top Charts/top.dart' as top_screen;
-import 'package:blackhole/constants/countrycodes.dart';
+import 'package:zyxvold/CustomWidgets/box_switch_tile.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/Screens/Home/saavn.dart' as home_screen;
+import 'package:zyxvold/Screens/Top Charts/top.dart' as top_screen;
+import 'package:zyxvold/constants/countrycodes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hive/hive.dart';

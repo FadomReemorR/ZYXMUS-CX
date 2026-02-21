@@ -1,4 +1,4 @@
-import 'package:blackhole/Models/image_quality.dart';
+import 'package:zyxvold/Models/image_quality.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class UrlImageGetter {

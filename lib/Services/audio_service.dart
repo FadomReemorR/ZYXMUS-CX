@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:async';
@@ -23,12 +23,12 @@ import 'dart:io';
 
 import 'package:audio_service/audio_service.dart';
 import 'package:audio_session/audio_session.dart';
-import 'package:blackhole/APIs/api.dart';
-import 'package:blackhole/Helpers/mediaitem_converter.dart';
-import 'package:blackhole/Helpers/playlist.dart';
-import 'package:blackhole/Screens/Player/audioplayer.dart';
-import 'package:blackhole/Services/isolate_service.dart';
-import 'package:blackhole/Services/yt_music.dart';
+import 'package:zyxvold/APIs/api.dart';
+import 'package:zyxvold/Helpers/mediaitem_converter.dart';
+import 'package:zyxvold/Helpers/playlist.dart';
+import 'package:zyxvold/Screens/Player/audioplayer.dart';
+import 'package:zyxvold/Services/isolate_service.dart';
+import 'package:zyxvold/Services/yt_music.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';

@@ -40,7 +40,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.shadow.ZyxVold.music"
+        applicationId "com.zyxvold.music"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()

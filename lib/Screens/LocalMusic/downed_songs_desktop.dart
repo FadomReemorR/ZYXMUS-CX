@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:io';
 
-// import 'package:blackhole/CustomWidgets/add_playlist.dart';
-import 'package:blackhole/CustomWidgets/custom_physics.dart';
-// import 'package:blackhole/CustomWidgets/data_search.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/playlist_head.dart';
-// import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/Helpers/audio_query.dart';
-// import 'package:blackhole/Screens/LocalMusic/localplaylists.dart';
-import 'package:blackhole/Services/player_service.dart';
+// import 'package:zyxvold/CustomWidgets/add_playlist.dart';
+import 'package:zyxvold/CustomWidgets/custom_physics.dart';
+// import 'package:zyxvold/CustomWidgets/data_search.dart';
+import 'package:zyxvold/CustomWidgets/empty_screen.dart';
+import 'package:zyxvold/CustomWidgets/gradient_containers.dart';
+import 'package:zyxvold/CustomWidgets/playlist_head.dart';
+// import 'package:zyxvold/CustomWidgets/snackbar.dart';
+import 'package:zyxvold/Helpers/audio_query.dart';
+// import 'package:zyxvold/Screens/LocalMusic/localplaylists.dart';
+import 'package:zyxvold/Services/player_service.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

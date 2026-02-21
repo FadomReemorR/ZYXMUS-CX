@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/Models/song_item.dart';
-import 'package:blackhole/Models/url_image_generator.dart';
+import 'package:zyxvold/Models/song_item.dart';
+import 'package:zyxvold/Models/url_image_generator.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
 // ignore: avoid_classes_with_only_static_members

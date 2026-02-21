@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:io';
 
-import 'package:blackhole/CustomWidgets/drawer.dart';
-import 'package:blackhole/Screens/Library/liked.dart';
-import 'package:blackhole/Screens/LocalMusic/downed_songs.dart';
-import 'package:blackhole/Screens/LocalMusic/downed_songs_desktop.dart';
+import 'package:zyxvold/CustomWidgets/drawer.dart';
+import 'package:zyxvold/Screens/Library/liked.dart';
+import 'package:zyxvold/Screens/LocalMusic/downed_songs.dart';
+import 'package:zyxvold/Screens/LocalMusic/downed_songs_desktop.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';

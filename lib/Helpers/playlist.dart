@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/Helpers/mediaitem_converter.dart';
-import 'package:blackhole/Helpers/songs_count.dart' as songs_count;
+import 'package:zyxvold/Helpers/mediaitem_converter.dart';
+import 'package:zyxvold/Helpers/songs_count.dart' as songs_count;
 import 'package:hive/hive.dart';
 
 bool checkPlaylist(String name, String key) {

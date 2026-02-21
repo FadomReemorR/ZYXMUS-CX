@@ -14,15 +14,15 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
  * 
- * Copyright (c) 2021-2023, Ankit Sangwan
+ * Copyright (c) 2024, ZyxVold Project
  */
 
 import 'dart:convert';
 
-import 'package:blackhole/Models/song_item.dart';
-import 'package:blackhole/Services/youtube_services.dart';
-import 'package:blackhole/Services/ytmusic/nav.dart';
-import 'package:blackhole/Services/ytmusic/playlist.dart';
+import 'package:zyxvold/Models/song_item.dart';
+import 'package:zyxvold/Services/youtube_services.dart';
+import 'package:zyxvold/Services/ytmusic/nav.dart';
+import 'package:zyxvold/Services/ytmusic/playlist.dart';
 import 'package:http/http.dart';
 import 'package:logging/logging.dart';
 
