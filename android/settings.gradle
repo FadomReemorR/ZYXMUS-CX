@@ -1,14 +1,19 @@
 pluginManagement {
     def flutterSdkPath = {
         def localPropertiesFile = new File(rootProject.projectDir.parentFile, "local.properties")
-        if (!localPropertiesFile.exists()) {
-            throw new FileNotFoundException("local.properties not found")
-        }
         def properties = new Properties()
-        localPropertiesFile.withReader("UTF-8") { reader -> properties.load(reader) }
+        
+        if (localPropertiesFile.exists()) {
+            localPropertiesFile.withReader("UTF-8") { reader -> properties.load(reader) }
+        } else if (System.getenv("FLUTTER_ROOT")) {
+            properties.setProperty("flutter.sdk", System.getenv("FLUTTER_ROOT"))
+        } else {
+            throw new RuntimeException("Flutter SDK not found. Set FLUTTER_ROOT or flutter.sdk in local.properties")
+        }
+        
         def flutterSdkPath = properties.getProperty("flutter.sdk")
-        if (flutterSdkPath == null) {
-            throw new RuntimeException("flutter.sdk not set in local.properties")
+        if (flutterSdkPath == null || flutterSdkPath.isEmpty()) {
+            throw new RuntimeException("flutter.sdk not set")
         }
         return flutterSdkPath
     }()
