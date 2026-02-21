@@ -29,6 +29,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
+    namespace = "com.zyxvold.music"
     compileSdkVersion 33
     ndkVersion "21.4.7075529"
 
