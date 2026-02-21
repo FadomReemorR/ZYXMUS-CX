@@ -4,11 +4,8 @@ plugins {
     id "kotlin-android"
 }
 
-// Direct Flutter SDK from environment
 def flutterRoot = System.getenv('FLUTTER_ROOT')
-if (flutterRoot == null) {
-    throw new GradleException("FLUTTER_ROOT environment variable not set")
-}
+if (flutterRoot == null) throw new GradleException('FLUTTER_ROOT not set')
 
 def flutterVersionCode = 1
 def flutterVersionName = '1.0'
