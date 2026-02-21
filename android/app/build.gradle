@@ -4,27 +4,25 @@ plugins {
     id "kotlin-android"
 }
 
+// Direct Flutter SDK from environment
+def flutterRoot = System.getenv('FLUTTER_ROOT')
+if (flutterRoot == null) {
+    throw new GradleException("FLUTTER_ROOT environment variable not set")
+}
+
+def flutterVersionCode = 1
+def flutterVersionName = '1.0'
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
     localPropertiesFile.withReader('UTF-8') { reader ->
         localProperties.load(reader)
     }
-}
-
-def flutterRoot = localProperties.getProperty('flutter.sdk')
-if (flutterRoot == null) {
-    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-}
-
-def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
-if (flutterVersionCode == null) {
-    flutterVersionCode = '1'
-}
-
-def flutterVersionName = localProperties.getProperty('flutter.versionName')
-if (flutterVersionName == null) {
-    flutterVersionName = '1.0'
+    def vc = localProperties.getProperty('flutter.versionCode')
+    if (vc != null) flutterVersionCode = vc.toInteger()
+    def vn = localProperties.getProperty('flutter.versionName')
+    if (vn != null) flutterVersionName = vn
 }
 
 def keystoreProperties = new Properties()
