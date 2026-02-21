@@ -29,8 +29,8 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.zyxvold.music"
-    compileSdkVersion 33
+    namespace = "com.fedom.zyxmus"
+    compileSdkVersion 34
     ndkVersion "21.4.7075529"
 
     sourceSets {
@@ -38,9 +38,9 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.zyxvold.music"
+        applicationId "com.fedom.zyxmus"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }

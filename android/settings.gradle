@@ -6,6 +6,35 @@ pluginManagement {
     }
 }
 
+def flutterSdkPath = {
+    try {
+        def env = System.getenv("FLUTTER_ROOT")
+        if (env != null && !env.isEmpty()) {
+            println "Using FLUTTER_ROOT from environment: $env"
+            return env
+        }
+    } catch (Exception e) {
+        println "Failed to read FLUTTER_ROOT: $e.message"
+    }
+    
+    try {
+        def localPropertiesFile = new File(rootProject.projectDir.parentFile, "local.properties")
+        if (localPropertiesFile.exists()) {
+            def properties = new Properties()
+            localPropertiesFile.withReader("UTF-8") { reader -> properties.load(reader) }
+            def sdk = properties.getProperty("flutter.sdk")
+            if (sdk != null && !sdk.isEmpty()) {
+                println "Using flutter.sdk from local.properties: $sdk"
+                return sdk
+            }
+        }
+    } catch (Exception e) {
+        println "Failed to read local.properties: $e.message"
+    }
+    
+    throw new RuntimeException("Flutter SDK not found. Set FLUTTER_ROOT environment variable or flutter.sdk in local.properties")
+}()
+
 plugins {
     id "dev.flutter.flutter-gradle-plugin" version "1.0.0" apply false
 }
