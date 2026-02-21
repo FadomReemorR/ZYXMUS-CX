@@ -1,7 +1,7 @@
 /*
  *  This file is part of BlackHole (https://github.com/Sangwan5688/BlackHole).
  * 
- * BlackHole is free software: you can redistribute it and/or modify
+ * ZyxVold is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
@@ -12,7 +12,7 @@
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with BlackHole.  If not, see <http://www.gnu.org/licenses/>.
+ * along with ZyxVold.  If not, see <http://www.gnu.org/licenses/>.
  * 
  * Copyright (c) 2024, ZyxVold Project
  */
@@ -50,7 +50,7 @@ Future<void> main() async {
   // Paint.enableDithering = true; No longer needed
 
   if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-    await Hive.initFlutter('BlackHole/Database');
+    await Hive.initFlutter('ZyxVold/Database');
   } else if (Platform.isIOS) {
     await Hive.initFlutter('Database');
   } else {
