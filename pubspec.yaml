@@ -84,8 +84,8 @@ flutter:
 
 msix_config:
   display_name: ZyxVold
-  publisher_display_name: Ankit Sangwan
-  identity_name: com.shadow.zyxvold
+  publisher_display_name: ZyxVold Project
+  identity_name: com.zyxvold.music
   icons_background_color: transparent
   logo_path: assets/ic_launcher.png
   file_extension: .mp3, .m4a
