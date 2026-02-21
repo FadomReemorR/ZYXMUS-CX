@@ -9,7 +9,7 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-      - run: mkdir -p android && echo "flutter.sdk=/opt/hostedtoolcache/flutter/stable-x64" > android/local.properties
+      - run: mkdir -p android && echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
       - run: cat android/local.properties
       - run: flutter doctor -v
       - run: flutter build apk --release
