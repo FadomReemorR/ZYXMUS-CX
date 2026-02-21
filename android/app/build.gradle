@@ -1,70 +1,28 @@
 plugins {
     id "com.android.application"
+    id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
-    id "org.jetbrains.kotlin.android"
-}
-
-def flutterRoot = System.getenv("FLUTTER_ROOT")
-if (flutterRoot == null) throw new GradleException("FLUTTER_ROOT not set")
-
-def flutterVersionCode = 1
-def flutterVersionName = '1.0'
-
-def localProperties = new Properties()
-def localPropertiesFile = rootProject.file('local.properties')
-if (localPropertiesFile.exists()) {
-    localPropertiesFile.withReader('UTF-8') { reader ->
-        localProperties.load(reader)
-    }
-    def vc = localProperties.getProperty('flutter.versionCode')
-    if (vc != null) flutterVersionCode = vc.toInteger()
-    def vn = localProperties.getProperty('flutter.versionName')
-    if (vn != null) flutterVersionName = vn
-}
-
-def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 
 android {
-    namespace = "com.fedom.zyxmus"
-    compileSdkVersion 34
-    ndkVersion "21.4.7075529"
-
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
+    namespace "com.fedom.zyxmus" // Paket adının bu olduğundan emin ol
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.fedom.zyxmus"
-        minSdkVersion 21
-        targetSdkVersion 34
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
-    }
-
-    signingConfigs {
-        release {
-            keyAlias keystoreProperties['key.alias']
-            keyPassword keystoreProperties['key.password']
-            storeFile keystoreProperties['store.file'] ? file(keystoreProperties['store.file']) : null
-            storePassword keystoreProperties['store.password']
-        }
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
     }
 
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 }
 
 flutter {
-    source = '../..'
-}
-
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+    source '../..'
 }
